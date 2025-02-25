@@ -1,14 +1,22 @@
 import { Route, Routes } from "react-router"
 import Home from "./pages/home"
-import ReusePage from "./pages/reuse-page"
-import NestedArrayPage from "./pages/nested-array-page"
+import ReuseCompInLoop from "./components/reuse-comp-in-loop"
+import NestedArrayLoop from "./components/nested-array-loop"
+import ManageFormInputs from "./components/manage-form-inputs"
+import StateSideEffect from "./components/state-side-effect"
+import PropSideEffect from "./components/prop-side-effect"
+import LifeCycleMethods from "./components/life-cycle-methods"
 
 const App = ()=>{
   return(
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/reuse-page" element={<ReusePage/>} />
-      <Route path="/nested-array-page" element={<NestedArrayPage/>} />
+      {/* <Route path="/reuse-comp" element={<ReuseCompInLoop/>} />
+      <Route path="/nested-array-loop" element={<NestedArrayLoop/>} />
+      <Route path="/manage-form-inputs" element={<ManageFormInputs/>} />
+      <Route path="/state-side-effect" element={<StateSideEffect/>} />
+      <Route path="/prop-side-effect" element={<PropSideEffect/>} /> */}
+      <Route path="/life-cycle-method" element={<LifeCycleMethods/>} />
     </Routes>
   )
 }
