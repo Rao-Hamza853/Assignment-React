@@ -5,10 +5,14 @@ import UseFormStatusHook from './use-form-status-hook'
 
 const LastThreeTasks = () => {
   return (
-    <div className='bg-gray-200 h-screen'>
+    <div className='bg-gray-200 flex'>
+          <div className='w-full'>
           <PassFuncAsProps/>
           <ForwardRefComp/>
+          </div>
+          <div className='w-full'>
           <UseFormStatusHook/>
+          </div>
     </div>
   )
 }

@@ -21,7 +21,7 @@ const UseFormStatusHook = () => {
   return (
     <div className='bg-gray-200 p-8'>
         <h2 className="text-4xl font-bold mb-8 text-[#0A5EB0]">Use Form Status Hook</h2>
-        <div className="bg-white w-1/4 flex flex-col rounded-xl">
+        <div className="bg-white w-[60%] flex flex-col gap-y-3 rounded-xl">
           <h3 className="bg-blue-500 text-white text-xl font-semibold w-full text-center py-3 rounded-t-xl">Disable Submit Button</h3>
           <form action={handleSubmit}>
              <HandleForm/>
