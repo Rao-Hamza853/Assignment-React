@@ -24,7 +24,7 @@ const LifeCycleMethods = ()=>{
         },[])
 
         return (
-            <div className='bg-white w-1/4 flex flex-col mx-auto pb- rounded-xl'>
+            <div className='bg-white w-1/4 flex flex-col mx-auto rounded-xl'>
                 <h3 className='bg-blue-500 text-white text-xl font-semibold w-full text-center py-3 rounded-t-xl'>Life Cycle Methods</h3>
                 <div className='p-4 space-y-5 mt-3 mb-5'>
                     <h3 className='text-lg font-medium'>Increment Counter</h3>

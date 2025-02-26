@@ -10,6 +10,8 @@ import FocusInput from "./components/focus-input"
 import UncontrolledComp from "./components/uncontrolled-comp"
 import UseRefHook from "./components/useRef-hook"
 import PassFuncAsProps from "./components/pass-func-as-props"
+import LastThreeTasks from "./components/last-three-tasks"
+import FetchAPI from "./components/fetch-API"
 
 const App = ()=>{
   return(
@@ -18,11 +20,12 @@ const App = ()=>{
       <Route path="/reuse-comp" element={<ReuseCompInLoop/>} />
       <Route path="/nested-array-loop" element={<NestedArrayLoop/>} />
       <Route path="/manage-form-inputs" element={<ManageFormInputs/>} />
+      <Route path="/fetch-api" element={<FetchAPI/>} />
       <Route path="/state-side-effect" element={<StateSideEffect/>} />
       <Route path="/prop-side-effect" element={<PropSideEffect/>} />
       <Route path="/life-cycle-method" element={<LifeCycleMethods/>} />
       <Route path="/useref-hook" element={<UseRefHook/>} />
-      <Route path="/pass-func-as-props" element={<PassFuncAsProps/>} />
+      <Route path="/last-three-tasks" element={<LastThreeTasks/>} />
     </Routes>
   )
 }

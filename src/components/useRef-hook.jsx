@@ -1,6 +1,7 @@
 import React from 'react'
 import FocusInput from './focus-input'
 import UncontrolledComp from './uncontrolled-comp'
+import PassFuncAsProps from './pass-func-as-props'
 
 const UseRefHook = () => {
   return (
